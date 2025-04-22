@@ -1,1 +1,0 @@
-var ajax=new XMLHttpRequest;ajax.open("GET","/wp-content/themes/two-nw-nomads/img/defs/svg/sprite.defs.svg"),ajax.send(),ajax.onload=function(e){var n=document.createElement("div");n.className="svg-defs",n.style.display="none",n.innerHTML=ajax.responseText,document.body.insertBefore(n,document.body.childNodes[0])};
